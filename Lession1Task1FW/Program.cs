@@ -10,6 +10,11 @@ namespace Lession1Task1FW
     {
         static void Main(string[] args)
         {
+            Console.Write("Введите ваше имя: ");
+            string name = Console.ReadLine();
+            DateTime now = DateTime.Now;
+            Console.WriteLine(value: $"Привет, { name}, сегодня { now.ToString("D") } ");
+            
         }
     }
 }
