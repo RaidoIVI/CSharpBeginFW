@@ -6,9 +6,9 @@ namespace Lession2Task1235
     {
         static void Main(string[] args)
         {
-            double MaxTemp = Get.Double("Введите максимальную температуру в этом месяце: ");
-            double MinTemp = Get.Double("Введите минимальную температуру в этом месяце: ");
-            int Month = Get.Month("Введите номер месяца ");
+            double MaxTemp = Get.Double("Введите максимальную температуру сегодня: ");
+            double MinTemp = Get.Double("Введите минимальную температуру сегодня: ");
+            int Month = Get.Month("Введите порядковый номер месяца ");
             int Number = Get.Int("Введите число для проверки чет/нечет: ");
 
             double Mean = Calculation.Mean(MaxTemp, MinTemp);
