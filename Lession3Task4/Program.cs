@@ -44,11 +44,11 @@ namespace Lession3Task4
                     if (Board[i, j] == 1) 
                     {
                         Console.BackgroundColor = ConsoleColor.Red;
-                        Console.Write(1);
+                        Console.Write("  ");
                         Console.BackgroundColor = ConsoleColor.Black;
 
                     }
-                    else { Console.Write(0); };
+                    else { Console.Write("  "); };
                 }
                 Console.WriteLine();
             }
@@ -102,11 +102,6 @@ namespace Lession3Task4
                         board[valueX - 1, valueY + i] = 2;
                     }
                 }
-
-
-
-
-
                 return true;
             }
         }
