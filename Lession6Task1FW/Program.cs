@@ -10,6 +10,7 @@ namespace Lession6Task1FW
     {
         static void Main(string[] args)
         {
+            Logic.TaskKill();            
         }
     }
 }
