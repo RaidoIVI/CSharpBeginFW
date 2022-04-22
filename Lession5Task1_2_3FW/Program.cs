@@ -7,3 +7,7 @@ StartUp.Start() ;
 
 // Задание 3
 FileOut.Save(Input.GetByte());
+
+// Задание 5
+
+
